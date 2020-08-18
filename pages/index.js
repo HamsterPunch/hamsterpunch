@@ -13,6 +13,9 @@ const Home = () => {
         <>
             <Head>
                 <title>햄스터펀치's</title>
+                <meta name='description' content='웹 개발자 햄스터펀치의 포트폴리오' />
+                <meta property='og:title' content='웹 개발자 포트폴리오' />
+                <meta property='og:description' content='햄스터펀치의 포트폴리오' />
             </Head>
             <AppLayout>
                 <Navigation />
