@@ -6,13 +6,11 @@ import { StyledSlide, ThumbnailDiv, Thumbnail, DescriptionDiv, TitleBox, PeriodB
 const ProjectItem = ({ project }) => {
     return (
         <StyledSlide>
-            <Link href={`//${project.link_web}`}>
-                <a target='_blank' style={{ text: 'black', textDecoration: 'none' }}>
-                    <ThumbnailDiv>
-                        <Thumbnail src={`/thumbnails/${project.thumbnail}`} />
-                    </ThumbnailDiv>
-                </a>
-            </Link>
+            <a href={`${project.link_web}`} target='_blank' style={{ text: 'black', textDecoration: 'none' }}>
+                <ThumbnailDiv>
+                    <Thumbnail src={`/thumbnails/${project.thumbnail}`} />
+                </ThumbnailDiv>
+            </a>
             <DescriptionDiv>
                 <TitleBox>
                     {project.title}

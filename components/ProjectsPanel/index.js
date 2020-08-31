@@ -7,10 +7,10 @@ import { WrapperDiv, ContentDiv } from './styles';
 
 const ProjectArray = [
     {
-        link_web: 'www.google.com',
+        link_web: 'https://repeatafter.site',
         thumbnail: 'repeatafter.png',
         title: 'Repeat: After',
-        period: '2020.08.09~2020.08.26',
+        period: '2020.08.09~2020.08.31',
         description: 'Next + Redux + Express + MySQL과 브라우저의 레코더 기능을 이용하여 만든 간단한 영어학습 사이트.',
         link_git: 'https://www.github.com/hamsterpunch/repeat-after'
     }
